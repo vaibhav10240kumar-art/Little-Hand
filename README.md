@@ -24,7 +24,7 @@ A tiny Bluetooth mouse built with an **ESP32**, a **joystick module**, and three
 ## Wiring
 
 | Part | ESP32 pin |
-
+|------|-----------|
 | Joystick VRx | GPIO 27 |
 | Joystick VRy | GPIO 35 |
 | Joystick VCC | 3.3V |
@@ -51,11 +51,13 @@ The buttons use the ESP32's internal pull-up resistors, so each button only need
 2. Open Bluetooth settings on your phone, tablet, or computer and pair with **"Little Hand"**. No PIN is needed.
 3. Once connected, the LED stops blinking and the joystick controls the cursor.
 
- Input -> Action 
- Joystick -> Move cursor 
- Click button (hold) -> Left mouse button down, so you can drag 
- Scroll up button -> Scroll up 
- Scroll down button -> Scroll down 
+   
+| Input | Action |
+|-------|--------|
+| Joystick | Move cursor |
+| Click button (hold) | Left mouse button down, so you can drag |
+| Scroll up button | Scroll up |
+| Scroll down button | Scroll down |
 
 
 
